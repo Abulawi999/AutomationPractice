@@ -23,7 +23,7 @@ public class MyTestCase {
 	Random rand = new Random();
 
 	@BeforeTest
-	public void MySetup() {
+	public void MySetup() { 
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 		driver.manage().window().maximize();
